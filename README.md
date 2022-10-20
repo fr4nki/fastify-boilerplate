@@ -11,6 +11,6 @@
 
 - Nodemon
 - Pre-commit hook with Husky
-- Lintin staged with Husky, Eslint and Prettier
+- Lint staged with Husky, Eslint and Prettier
 - TypeScript
 
