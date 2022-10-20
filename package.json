@@ -1,0 +1,49 @@
+{
+  "name": "api",
+  "version": "1.0.0",
+  "description": "Fastify Boilerplate",
+  "main": "source/applicaion.ts",
+  "scripts": {
+    "build": "tsc && tsc-alias",
+    "dev": "nodemon --config ./nodemon.json",
+    "start": "NODE_ENV=production node dist/application.js",
+    "lint": "lint-staged"
+  },
+  "bugs": {
+    "url": "https://github.com/fr4nki/fastify-boilerplate/issues"
+  },
+  "homepage": "https://github.com/fr4nki/fastify-boilerplate#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fr4nki/fastify-boilerplate.git"
+  },
+  "author": "Anton Krivonos <chumadanoff@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "@fastify/cors": "^8.1.0",
+    "@fastify/helmet": "^10.0.2",
+    "@fastify/rate-limit": "^7.5.0",
+    "@fastify/swagger": "^8.0.0",
+    "ajv": "^8.11.0",
+    "dotenv": "^16.0.3",
+    "fastify": "^4.9.2",
+    "fastify-metrics": "^10.0.0",
+    "fastify-plugin": "^4.3.0"
+  },
+  "devDependencies": {
+    "@types/node": "^18.11.2",
+    "@typescript-eslint/eslint-plugin": "^5.40.1",
+    "@typescript-eslint/parser": "^5.40.1",
+    "eslint": "^8.25.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "husky": "^8.0.0",
+    "lint-staged": "^13.0.3",
+    "nodemon": "^2.0.20",
+    "prettier": "^2.7.1",
+    "ts-node": "^10.9.1",
+    "tsc-alias": "^1.7.0",
+    "tsconfig-paths": "^4.1.0",
+    "typescript": "^4.8.4"
+  }
+}

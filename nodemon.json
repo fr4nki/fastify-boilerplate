@@ -1,0 +1,7 @@
+{
+  "verbose": true,
+  "watch": ["source"],
+  "ext": "ts,json",
+  "ignore": ["source/**/*.test.js", "source/**/fixtures/**"],
+  "exec": "ts-node -r tsconfig-paths/register --files -- ./source/application.ts"
+}
