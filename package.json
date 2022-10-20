@@ -6,7 +6,7 @@
   "scripts": {
     "build": "tsc && tsc-alias",
     "dev": "nodemon --config ./nodemon.json",
-    "start": "NODE_ENV=production node dist/application.js",
+    "start": "NODE_ENV=production node build/application.js",
     "lint": "lint-staged"
   },
   "bugs": {
